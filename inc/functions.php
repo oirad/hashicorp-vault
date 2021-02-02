@@ -78,7 +78,7 @@ function get_secret( string $secret ) : array {
  */
 function get_secret_from_vault( string $secret ) : array {
 	$vault = new Vault\Client(
-		new VaultTransports\Guzzle6Transport( [
+		new VaultTransports\Guzzle7Transport( [
 			'base_uri' => get_vault_url(),
 		] )
 	);

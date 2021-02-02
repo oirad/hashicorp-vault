@@ -6,7 +6,7 @@
         "php": "~7.2",
         "composer/installers": "^1.6",
         "csharpru/vault-php": "^3.6",
-        "csharpru/vault-php-guzzle6-transport": "^2.0",
+        "oirad/vault-php-guzzle7-transport": "^1.0",
         "wpdesk/wp-mutex": "^1.1"
     },
     "license": "MIT",
